@@ -1,7 +1,9 @@
-Best-mind-login-app È uma aplicaÁ„o desenvolvida para o teste pratico do programa de trainee Best minds da Everymind, para um cliente fictÌcio onde o seu proposito È:
+Best-mind-login-app √© uma aplica√ß√£o desenvolvida para o teste pratico do programa de trainee Best minds da Everymind, para um cliente fict√≠cio onde o seu proposito √©:
 
-- Criar uma soluÁ„o de Sing in e Sing up.
-- Permitir a criaÁ„o de novos usu·rios de maneira intuitiva e pratica.
+- Criar uma solu√ß√£o de Sing in e Sing up.
+- ![tela login](https://user-images.githubusercontent.com/80066734/113787843-2459c300-9712-11eb-95dd-7e27d3f879dc.jpg)
+- Permitir a cria√ß√£o de novos usu√°rios de maneira intuitiva e pratica.
+- ![tela cadastro](https://user-images.githubusercontent.com/80066734/113787860-2a4fa400-9712-11eb-9f3c-0fbe5293a755.jpg)
 
 Features
 --------
@@ -10,33 +12,38 @@ Features
 - API Desenvolvida em C#
 
 
-InstalaÁ„o
+Instala√ß√£o
 ----------
-Para a utilizaÁ„o desta aplicaÁ„o e necess·rio uma plataforma de execuÁ„o para C#, como sugest„o deixo o [.net vers„o 3.1](https://dotnet.microsoft.com/download/dotnet/3.1/runtime/?utm_source=getdotnetcore&utm_medium=referral)
+Para a utiliza√ß√£o desta aplica√ß√£o e necess√°rio uma plataforma de execu√ß√£o para C#, como sugest√£o deixo o [.net vers√£o 3.1](https://dotnet.microsoft.com/download/dotnet/3.1/runtime/?utm_source=getdotnetcore&utm_medium=referral)
 
-1. DescompactaÁ„o do arquivo
-2. DescompactaÁ„o da pasta debug no caminho
+1. Descompacta√ß√£o do arquivo
+2. Descompacta√ß√£o da pasta debug no caminho
 ...\Best-mind-login-app-main\OliveiraTradeFrontPage\obj\Debug.zip
-3. Executar a aplicaÁ„o pelo execut·vel no caminho
+3. Executar a aplica√ß√£o pelo execut√°vel no caminho
 ...\Best-mind-login-app-main\OliveiraTradeFrontPage\bin\Debug\netcoreapp3.1\OliveiraTradeLoginSolution.exe
 
-InstalaÁ„o do Banco de Dados
+Instala√ß√£o do Banco de Dados
 ----------------------------
 O banco de dados foi criado em SQL utilizando a plataforma de desenvolvimento [SSMS 18.8](https://docs.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15)
-1. Juntamente com arquivos da aplicaÁ„o disponibilizei o arquivo de Backup cujo o nome È [BD OliveiraTrade.bak]
-2. A configuraÁ„o padr„o da classe "Conexao" utiliza como padr„o a sess„o criada na minha maquina durante o desenvolvimento da aplicaÁ„o nessa linha "connection.ConnectionString = (@"Data Source=ART2-PC;Initial Catalog=OliveiraTrade;Integrated Security=True");" 
-3. Para o correto funcionamento esta linha deve ser atualizada com as configuraÁıes de sess„o da maquina na qual o banco de dados ser· instalado
-4. A nomenclatura do banco de dados deve ser mantida pois h· referencias no cÛdigo com o mesmo nome.
-5. usu·rio e senha padrıes da sess„o SQL 
+1. Juntamente com arquivos da aplica√ß√£o disponibilizei o arquivo de Backup cujo o nome √© [BD OliveiraTrade.bak]
+2. A configura√ß√£o padr√£o da classe "Conexao" utiliza como padr√£o a sess√£o criada na minha maquina durante o desenvolvimento da aplica√ß√£o nessa linha "connection.ConnectionString = (@"Data Source=ART2-PC;Initial Catalog=OliveiraTrade;Integrated Security=True");"
+-![codigo a alterar](https://user-images.githubusercontent.com/80066734/113787785-0724f480-9712-11eb-8cf6-ef3997a5b6ec.jpg)
+4. Para o correto funcionamento esta linha deve ser atualizada com as configura√ß√µes de sess√£o da maquina na qual o banco de dados ser√° instalado
+5. A nomenclatura do banco de dados deve ser mantida pois h√° referencias no c√≥digo com o mesmo nome.
+6. usu√°rio e senha padr√µes da sess√£o SQL 
 
-Modo de utilizaÁ„o
+Modo de utiliza√ß√£o
 ------------------
-- A aplicaÁ„o j· contem um usu·rio padr„o cadastrado para testes (admin, admin).
-- Na tela de login caso algum campo fique vazio ou as informaÁıes preenchidas n„o estejam corretas a aplicaÁ„o exibira uma mensagem de erro.
-- Ainda na tela de login caso as informaÁıes constem no banco de dados o login e feito e a tela principal surge.
-- Na tela de criaÁ„o de usu·rio segue o mesmo conceito campos vazios ou senhas n„o correspondentes tambÈm ativar„o uma mensagem de erro.
-- Continuando na tela de criaÁ„o de usu·rio com todas as informaÁıes preenchidas corretamente a mensagem de cadastro concluÌdo com sucesso aparece e as informaÁıes ser„o salvas no banco de dados.
+- A aplica√ß√£o j√° contem um usu√°rio padr√£o cadastrado para testes (admin, admin).
+- Na tela de login caso algum campo fique vazio ou as informa√ß√µes preenchidas n√£o estejam corretas a aplica√ß√£o exibira uma mensagem de erro.
+- ![erro tela login](https://user-images.githubusercontent.com/80066734/113787325-32f3aa80-9711-11eb-8e88-7a861fd2b2d9.jpg)
+- Ainda na tela de login caso as informa√ß√µes constem no banco de dados o login e feito e a tela principal surge.
+- ![tela principal](https://user-images.githubusercontent.com/80066734/113787404-54ed2d00-9711-11eb-9d41-2b52e89df4da.jpg)
+- Na tela de cria√ß√£o de usu√°rio segue o mesmo conceito campos vazios ou senhas n√£o correspondentes tamb√©m ativar√£o uma mensagem de erro.
+- ![erro tela cadastro](https://user-images.githubusercontent.com/80066734/113787426-5fa7c200-9711-11eb-8b66-526b6436b290.jpg)
+- Continuando na tela de cria√ß√£o de usu√°rio com todas as informa√ß√µes preenchidas corretamente a mensagem de cadastro conclu√≠do com sucesso aparece e as informa√ß√µes ser√£o salvas no banco de dados.
+- ![cadastro sucesso](https://user-images.githubusercontent.com/80066734/113787437-68989380-9711-11eb-9c33-553b42fce40d.jpg)
 
-LicenÁa
+Licen√ßa
 -------
-Essa aplicaÁ„o n„o requer licenÁa de uso, sinta-se livre para usa-la e copia-la 
+Essa aplica√ß√£o n√£o requer licen√ßa de uso, sinta-se livre para usa-la e copia-la 
