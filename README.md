@@ -36,13 +36,13 @@ Modo de utilização
 ------------------
 - A aplicação já contem um usuário padrão cadastrado para testes (admin, admin).
 - Na tela de login caso algum campo fique vazio ou as informações preenchidas não estejam corretas a aplicação exibira uma mensagem de erro.
-- ![erro tela login](https://user-images.githubusercontent.com/80066734/113787325-32f3aa80-9711-11eb-8e88-7a861fd2b2d9.jpg)
+![erro tela login](https://user-images.githubusercontent.com/80066734/113787325-32f3aa80-9711-11eb-8e88-7a861fd2b2d9.jpg)
 - Ainda na tela de login caso as informações constem no banco de dados o login e feito e a tela principal surge.
-- ![tela principal](https://user-images.githubusercontent.com/80066734/113787404-54ed2d00-9711-11eb-9d41-2b52e89df4da.jpg)
+![tela principal](https://user-images.githubusercontent.com/80066734/113787404-54ed2d00-9711-11eb-9d41-2b52e89df4da.jpg)
 - Na tela de criação de usuário segue o mesmo conceito campos vazios ou senhas não correspondentes também ativarão uma mensagem de erro.
-- ![erro tela cadastro](https://user-images.githubusercontent.com/80066734/113787426-5fa7c200-9711-11eb-8b66-526b6436b290.jpg)
+![erro tela cadastro](https://user-images.githubusercontent.com/80066734/113787426-5fa7c200-9711-11eb-8b66-526b6436b290.jpg)
 - Continuando na tela de criação de usuário com todas as informações preenchidas corretamente a mensagem de cadastro concluído com sucesso aparece e as informações serão salvas no banco de dados.
-- ![cadastro sucesso](https://user-images.githubusercontent.com/80066734/113787437-68989380-9711-11eb-9c33-553b42fce40d.jpg)
+![cadastro sucesso](https://user-images.githubusercontent.com/80066734/113787437-68989380-9711-11eb-9c33-553b42fce40d.jpg)
 
 Licença
 -------
