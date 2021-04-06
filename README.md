@@ -1,9 +1,9 @@
 Best-mind-login-app é uma aplicação desenvolvida para o teste pratico do programa de trainee Best minds da Everymind, para um cliente fictício onde o seu proposito é:
 
 - Criar uma solução de Sing in e Sing up.
-![tela login](https://user-images.githubusercontent.com/80066734/113787843-2459c300-9712-11eb-95dd-7e27d3f879dc.jpg)
+ ![tela login](https://user-images.githubusercontent.com/80066734/113787843-2459c300-9712-11eb-95dd-7e27d3f879dc.jpg)
 - Permitir a criação de novos usuários de maneira intuitiva e pratica.
-![tela cadastro](https://user-images.githubusercontent.com/80066734/113787860-2a4fa400-9712-11eb-9f3c-0fbe5293a755.jpg)
+ ![tela cadastro](https://user-images.githubusercontent.com/80066734/113787860-2a4fa400-9712-11eb-9f3c-0fbe5293a755.jpg)
 
 Features
 --------
