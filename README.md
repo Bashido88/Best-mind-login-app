@@ -27,7 +27,7 @@ Instalação do Banco de Dados
 O banco de dados foi criado em SQL utilizando a plataforma de desenvolvimento [SSMS 18.8](https://docs.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15)
 1. Juntamente com arquivos da aplicação disponibilizei o arquivo de Backup cujo o nome é [BD OliveiraTrade.bak]
 2. A configuração padrão da classe "Conexao" utiliza como padrão a sessão criada na minha maquina durante o desenvolvimento da aplicação nessa linha "connection.ConnectionString = (@"Data Source=ART2-PC;Initial Catalog=OliveiraTrade;Integrated Security=True");"
--![codigo a alterar](https://user-images.githubusercontent.com/80066734/113787785-0724f480-9712-11eb-8cf6-ef3997a5b6ec.jpg)
+![codigo a alterar](https://user-images.githubusercontent.com/80066734/113787785-0724f480-9712-11eb-8cf6-ef3997a5b6ec.jpg)
 4. Para o correto funcionamento esta linha deve ser atualizada com as configurações de sessão da maquina na qual o banco de dados será instalado
 5. A nomenclatura do banco de dados deve ser mantida pois há referencias no código com o mesmo nome.
 6. usuário e senha padrões da sessão SQL 
